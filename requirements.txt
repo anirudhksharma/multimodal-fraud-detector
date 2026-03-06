@@ -1,5 +1,8 @@
-streamlit==1.29.0
+streamlit
 requests
 python-dotenv
 pillow
 opencv-python-headless
+uvicorn
+fastapi
+httpx
