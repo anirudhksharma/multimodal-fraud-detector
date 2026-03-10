@@ -4,6 +4,10 @@ This project is an advanced, multi-agent AI pipeline designed to detect generati
 
 We use a "Jury System" architecture: A **Vision Agent** (Qwen-VL-Plus) conducts forensic analysis on the physical and structural anomalies of the image. Its findings are then passed to a panel of **Critic Agents** (Qwen Turbo, DeepSeek R1, GLM 4.6), which independently evaluate the evidence and hold a majority vote to produce the final classification.
 
+## Live Demo
+
+The project is deployed on Render and you can access it here: [https://multimodal-fraud-detector-1.onrender.com/](https://multimodal-fraud-detector-1.onrender.com/)
+
 ## Features
 - **Multi-Modal Support**: Analyzes Images, Videos (via frame extraction), and Documents (PDFs).
 - **Ensemble Voting Architecture**: Combines an overarching Vision Model with three separate Text LLM Critics to prevent single-model bias.
